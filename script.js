@@ -1,5 +1,4 @@
 let count = 0;
-document.getElementById("button").onclick = counter = () =>{
-    console.log(count)
+const counter = () => {
     document.getElementById("clickCount").innerHTML = `Number of times clicked: ${++count}`;
 }
